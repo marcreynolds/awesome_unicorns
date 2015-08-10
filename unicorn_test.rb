@@ -39,11 +39,11 @@ class UnicornTest < Minitest::Test
 
   def test_unicorn_says_sparkly_stuff
     unicorn = Unicorn.new 'Gertrude'
-    assert_equal '**;* Wonderful! **;*', unicorn.say('Wonderful!')
+    assert_equal '****;* Wonderful! ****;*', unicorn.say('Wonderful!')
   end
 
   def test_unicorn_says_different_sparkly_stuff
     unicorn = Unicorn.new 'Sparkles'
-    assert_equal '**;* This nasi is tak sedap **;*', unicorn.say('This nasi is tak sedap')
+    assert_equal '****;* This nasi is tak sedap ****;*', unicorn.say('This nasi is tak sedap')
   end
 end
